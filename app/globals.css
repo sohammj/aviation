@@ -2,13 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
   background: #000;
-  color: #fff;
+  color: #f9fafb;
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* optional: smooth section spacing helper */
 .section {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
 }
