@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="section bg-[#05070B] text-white border-t border-b border-white/5"
+      className="section bg-black text-white border-t border-b border-white/5"
     >
       <div className="mx-auto max-w-4xl px-6 text-center md:text-left">
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">
